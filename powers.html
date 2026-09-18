@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DARK HEROES | Powers</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <nav class="navbar">
+
+        <a href="index.html" class="logo">
+            DARK <span>HEROES</span>
+        </a>
+
+        <div class="nav-links">
+
+            <a href="index.html">HOME</a>
+
+            <a href="heroes.html">HEROES</a>
+
+            <a href="stories.html">STORIES</a>
+
+            <a href="powers.html">POWERS</a>
+
+            <a href="gallery.html">GALLERY</a>
+
+            <a href="game.html">GAME</a>
+
+            <a href="about.html">ABOUT</a>
+
+        </div>
+
+        <button class="menu-btn">☰</button>
+
+    </nav>
+
+</header>
+
+
+<main>
+    <div class="power-atmosphere">
+
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+
+</div>
+
+    <section class="page-banner">
+
+        <p class="section-label">THE POWER SYSTEM</p>
+
+        <h1>FORCES OF <span>DARKNESS</span></h1>
+
+        <p>
+            Every hero carries a power. Every power has a price.
+        </p>
+
+    </section>
+    <section class="powers-intro">
+
+    <p class="section-label">THE POWER SYSTEM</p>
+
+    <h2>THE FORCES THAT <span>SHAPE</span> THE HEROES</h2>
+
+    <p>
+        Every awakened hero is connected to a unique force.
+        These powers shape their abilities, their battles,
+        and the destiny of the DARK HEROES universe.
+    </p>
+
+</section>
+
+
+<section class="power-categories">
+
+    <div class="power-category"  onclick="showPower('SHADOW', 'Control darkness, concealment, and the unseen.')">
+        <span>01</span>
+        <div class="power-icon">◈</div>
+        <h3>SHADOW</h3>
+        <p>Control darkness, concealment, and the unseen.</p>
+    </div>
+
+    <div class="power-category" onclick="showPower('VOID', 'Harness energy from the space between realities.')">
+        <div class="power-icon">◇</div>
+        <span>02</span>
+        <h3>VOID</h3>
+        <p>Harness energy from the space between realities.</p>
+    </div>
+
+    <div class="power-category" onclick="showPower('STORM', 'Command lightning, wind, and destructive energy.')">
+        <div class="power-icon">⚡</div>
+        <span>03</span>
+        <h3>STORM</h3>
+        <p>Command lightning, wind, and destructive energy.</p>
+    </div>
+
+    <div class="power-category" onclick="showPower('FLAME', 'Channel fire and turn raw heat into power.')">
+        <div class="power-icon">🔥</div>
+        <span>04</span>
+        <h3>FLAME</h3>
+        <p>Channel fire and turn raw heat into power.</p>
+    </div>
+
+    <div class="power-category" onclick="showPower('ICE', 'Manipulate cold, frost, and dark frozen energy.')">
+        <div class="power-icon">❄</div>
+        <span>05</span>
+        <h3>ICE</h3>
+        <p>Manipulate cold, frost, and dark frozen energy.</p>
+    </div>
+
+    <div class="power-category" onclick="showPower('SPIRIT', 'Connect with mysterious forces beyond the physical world.')">
+        <div class="power-icon">☽</div>
+        <span>06</span>
+        <h3>SPIRIT</h3>
+        <p>Connect with mysterious forces beyond the physical world.</p>
+    </div>
+
+    <div class="power-category" onclick="showPower('GRAVITY', 'Manipulate force, weight, and the movement of matter.')">
+        <div class="power-icon">◎</div>
+        <span>07</span>
+        <h3>GRAVITY</h3>
+        <p>Manipulate force, weight, and the movement of matter.</p>
+    </div>
+
+    <div class="power-category" onclick="showPower('COSMIC', 'Draw power from distant stars and cosmic energy.')">
+        <div class="power-icon">✦</div>
+        <span>08</span>
+        <h3>COSMIC</h3>
+        <p>Draw power from distant stars and cosmic energy.</p>
+    </div>
+
+</section>
+<section class="power-levels">
+
+    <p class="section-label">POWER RANKINGS</p>
+
+    <h2>LEVEL OF <span>DESTRUCTION</span></h2>
+
+    <div class="power-level-grid">
+
+        <div class="power-level-card">
+            <h3>SHADOW</h3>
+            <div class="power-bar">
+                <span style="width: 72%;"></span>
+            </div>
+            <p>72% POWER</p>
+        </div>
+
+        <div class="power-level-card">
+            <h3>VOID</h3>
+            <div class="power-bar">
+                <span style="width: 94%;"></span>
+            </div>
+            <p>94% POWER</p>
+        </div>
+
+        <div class="power-level-card">
+            <h3>STORM</h3>
+            <div class="power-bar">
+                <span style="width: 86%;"></span>
+            </div>
+            <p>86% POWER</p>
+        </div>
+
+        <div class="power-level-card">
+            <h3>FLAME</h3>
+            <div class="power-bar">
+                <span style="width: 79%;"></span>
+            </div>
+            <p>79% POWER</p>
+        </div>
+
+    </div>
+
+</section>
+<section class="power-database">
+
+    <p class="section-label">DARK POWER DATABASE</p>
+
+    <h2>KNOWN <span>ABILITIES</span></h2>
+
+    <div class="power-database-grid">
+        <div class="database-card">
+    <span class="database-number">05</span>
+    <h3>FROST CORE</h3>
+    <p>
+        Generates extreme cold energy and freezes
+        anything caught within its range.
+    </p>
+
+    <div class="ability-info">
+        <span>TYPE</span>
+        <strong>ICE</strong>
+    </div>
+</div>
+
+
+<div class="database-card">
+    <span class="database-number">06</span>
+    <h3>SPIRIT LINK</h3>
+    <p>
+        Creates a connection with supernatural forces
+        and allows the user to sense hidden energies.
+    </p>
+
+    <div class="ability-info">
+        <span>TYPE</span>
+        <strong>SPIRIT</strong>
+    </div>
+    <div class="danger-level">
+
+        <span>DANGER LEVEL</span>
+
+            <div class="danger-dots level-3">
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+            </div>
+
+    </div>
+</div>
+
+
+<div class="database-card">
+    <span class="database-number">07</span>
+    <h3>GRAVITY CRUSH</h3>
+    <p>
+        Manipulates gravitational force to control
+        movement and overwhelm opponents.
+    </p>
+
+    <div class="ability-info">
+        <span>TYPE</span>
+        <strong>GRAVITY</strong>
+    </div>
+    <div class="danger-level">
+
+    <span>DANGER LEVEL</span>
+
+        <div class="danger-dots">
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+            <i></i>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="database-card">
+    <span class="database-number">08</span>
+    <h3>COSMIC PULSE</h3>
+    <p>
+        Releases concentrated cosmic energy drawn
+        from forces beyond the known universe.
+    </p>
+
+    <div class="ability-info">
+        <span>TYPE</span>
+        <strong>COSMIC</strong>
+    </div>
+    <div class="danger-level">
+
+        <span>DANGER LEVEL</span>
+
+            <div class="danger-dots">
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+        </div>
+
+    </div>
+</div>
+        <div class="database-card">
+            <span class="database-number">01</span>
+            <h3>SHADOW STEP</h3>
+            <p>
+                Allows the user to disappear into darkness
+                and move unseen through the battlefield.
+            </p>
+
+            <div class="ability-info">
+                <span>TYPE</span>
+                <strong>SHADOW</strong>
+            </div>
+            <div class="danger-level">
+
+                <span>DANGER LEVEL</span>
+
+                    <div class="danger-dots">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="database-card">
+            <span class="database-number">02</span>
+            <h3>VOID BREAK</h3>
+            <p>
+                Opens a temporary rift capable of releasing
+                destructive void energy.
+            </p>
+
+            <div class="ability-info">
+                <span>TYPE</span>
+                <strong>VOID</strong>
+            </div>
+            <div class="danger-level">
+
+                <span>DANGER LEVEL</span>
+
+                    <div class="danger-dots">
+                         <i></i>
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </div>
+
+            </div>
+        </div>
+
+
+        <div class="database-card">
+            <span class="database-number">03</span>
+            <h3>STORM CALL</h3>
+            <p>
+                Summons violent electrical energy and
+                controls the surrounding storm.
+            </p>
+
+            <div class="ability-info">
+                <span>TYPE</span>
+                <strong>STORM</strong>
+            </div>
+            <div class="danger-level">
+
+                <span>DANGER LEVEL</span>
+
+                    <div class="danger-dots">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </div>
+
+            </div>
+        </div>
+
+
+        <div class="database-card">
+            <span class="database-number">04</span>
+            <h3>HELLFIRE</h3>
+            <p>
+                Converts supernatural energy into intense
+                flames that increase combat power.
+            </p>
+
+            <div class="ability-info">
+                <span>TYPE</span>
+                <strong>FLAME</strong>
+            </div>
+            <div class="danger-level">
+
+        <span>DANGER LEVEL</span>
+
+            <div class="danger-dots">
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+            </div>
+
+    </div>
+            
+
+</div>
+        </div>
+
+
+</section>
+<section class="power-classification">
+
+    <p class="section-label">CLASSIFIED DATA</p>
+
+    <h2>POWER <span>CLASSIFICATION</span></h2>
+
+    <p class="classification-intro">
+        Not every awakened power carries the same level of danger.
+        The DARK HEROES system classifies abilities according to
+        their origin, control, and destructive potential.
+    </p>
+
+    <div class="classification-grid">
+
+        <div class="classification-card">
+            <span class="class-number">CLASS I</span>
+            <h3>AWAKENED</h3>
+            <p>
+                Basic supernatural abilities with limited range
+                and controlled energy output.
+            </p>
+        </div>
+
+
+        <div class="classification-card">
+            <span class="class-number">CLASS II</span>
+            <h3>ENHANCED</h3>
+            <p>
+                Advanced abilities capable of changing the
+                outcome of a serious battle.
+            </p>
+        </div>
+
+
+        <div class="classification-card">
+            <span class="class-number">CLASS III</span>
+            <h3>DOMINANT</h3>
+            <p>
+                Rare powers that can overwhelm multiple
+                opponents and alter the battlefield.
+            </p>
+        </div>
+
+
+        <div class="classification-card">
+            <span class="class-number">CLASS IV</span>
+            <h3>FORBIDDEN</h3>
+            <p>
+                Extremely rare powers whose full potential
+                remains unknown to the DARK HEROES system.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+<section class="power-warning">
+
+    <p class="section-label">SYSTEM WARNING</p>
+
+    <h2>POWER ALWAYS <span>HAS A PRICE</span></h2>
+
+    <p>
+        The greater the power, the greater the cost.
+        Every hero who awakens must learn to control
+        the darkness within.
+    </p>
+
+    <div class="warning-line"></div>
+
+</section>
+
+
+</main>
+<!-- POWER DETAIL POPUP -->
+
+<div class="power-popup" id="powerPopup">
+
+    <div class="popup-box">
+
+        <button class="popup-close" onclick="closePower()">×</button>
+
+        <span class="section-label">POWER DATABASE</span>
+
+        <h2 id="popupTitle">SHADOW</h2>
+
+        <p id="popupDescription">
+            Control darkness, concealment, and the unseen.
+        </p>
+
+        <div class="popup-status">
+            <span>STATUS</span>
+            <strong>AWAKENED</strong>
+        </div>
+
+    </div>
+
+</div>
+<footer>
+
+    <p>
+        © 2026 <span>DARK HEROES</span> — ENTER THE DARKNESS
+    </p>
+
+</footer>
+
+<script>
+    const cards = document.querySelectorAll(".power-category");
+
+    cards.forEach(card => {
+        card.addEventListener("mousemove", (e) => {
+            const rect = card.getBoundingClientRect();
+
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+
+            card.style.setProperty("--mouse-x", x + "px");
+            card.style.setProperty("--mouse-y", y + "px");
+        });
+
+        card.addEventListener("mouseleave", () => {
+            card.style.removeProperty("--mouse-x");
+            card.style.removeProperty("--mouse-y");
+        });
+    });
+    function showPower(title, description) {
+    document.getElementById("popupTitle").textContent = title;
+    document.getElementById("popupDescription").textContent = description;
+
+    document.getElementById("powerPopup").classList.add("active");
+}
+
+function closePower() {
+    document.getElementById("powerPopup").classList.remove("active");
+}
+
+document.getElementById("powerPopup").addEventListener("click", function(e) {
+    if (e.target === this) {
+        closePower();
+    }
+});
+</script>
+
+</body>
+
+</html>
