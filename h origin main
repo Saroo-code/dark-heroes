@@ -1,0 +1,97 @@
+[33m45b2930[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Initial upload - DARK HEROES
+ about.html                     |  394 [32m+++[m
+ css/style.css                  | 5875 [32m++++++++++++++++++++++++++++++++++++++++[m
+ gallery.html                   |  307 [32m+++[m
+ game.html                      | 2244 [32m+++++++++++++++[m
+ hero-01.html                   |  604 [32m+++++[m
+ hero-02.html                   |  594 [32m++++[m
+ hero-03.html                   |  599 [32m++++[m
+ hero-04.html                   |  631 [32m+++++[m
+ hero-05.html                   |  662 [32m+++++[m
+ hero-06.html                   |  679 [32m+++++[m
+ hero-07.html                   |  751 [32m+++++[m
+ hero-08.html                   |  752 [32m+++++[m
+ hero-09.html                   |  752 [32m+++++[m
+ hero-10.html                   |  749 [32m+++++[m
+ hero-11.html                   |  752 [32m+++++[m
+ hero-12.html                   |  753 [32m+++++[m
+ hero-13.html                   |  752 [32m+++++[m
+ hero-14.html                   |  752 [32m+++++[m
+ hero-15.html                   |  752 [32m+++++[m
+ hero-16.html                   |  752 [32m+++++[m
+ hero-17.html                   |  741 [32m+++++[m
+ hero-18.html                   |  741 [32m+++++[m
+ hero-19.html                   |  742 [32m+++++[m
+ hero-20.html                   |  741 [32m+++++[m
+ heroes.html                    |  452 [32m++++[m
+ images/banners/test.png.png    |  Bin [31m0[m -> [32m854693[m bytes
+ images/heroes/hero-01.png      |  Bin [31m0[m -> [32m864600[m bytes
+ images/heroes/hero-02.png.png  |  Bin [31m0[m -> [32m2773918[m bytes
+ images/heroes/hero-03.png      |  Bin [31m0[m -> [32m2174860[m bytes
+ images/heroes/hero-03.png.png  |  Bin [31m0[m -> [32m2327998[m bytes
+ images/heroes/hero-03e.png     |  Bin [31m0[m -> [32m2043570[m bytes
+ images/heroes/hero-03w.png     |  Bin [31m0[m -> [32m2351273[m bytes
+ images/heroes/hero-04.png      |  Bin [31m0[m -> [32m2407826[m bytes
+ images/heroes/hero-04.png.png  |  Bin [31m0[m -> [32m2407826[m bytes
+ images/heroes/hero-04b.png     |  Bin [31m0[m -> [32m2652873[m bytes
+ images/heroes/hero-04e.png     |  Bin [31m0[m -> [32m2202234[m bytes
+ images/heroes/hero-04w.png     |  Bin [31m0[m -> [32m2592965[m bytes
+ images/heroes/hero-05.png      |  Bin [31m0[m -> [32m2771534[m bytes
+ images/heroes/hero-06 (2).png  |  Bin [31m0[m -> [32m2598870[m bytes
+ images/heroes/hero-06.png      |  Bin [31m0[m -> [32m2696598[m bytes
+ images/heroes/hero-06.png.png  |  Bin [31m0[m -> [32m2474103[m bytes
+ images/heroes/hero-06.pp.png   |  Bin [31m0[m -> [32m2696598[m bytes
+ images/heroes/hero-07.png      |  Bin [31m0[m -> [32m2559824[m bytes
+ images/heroes/hero-07.pp.png   |  Bin [31m0[m -> [32m2625142[m bytes
+ images/heroes/hero-07b.png.png |  Bin [31m0[m -> [32m2542135[m bytes
+ images/heroes/hero-07e.png.png |  Bin [31m0[m -> [32m2054451[m bytes
+ images/heroes/hero-07w.png.png |  Bin [31m0[m -> [32m2408387[m bytes
+ images/heroes/hero-08.png      |  Bin [31m0[m -> [32m2223824[m bytes
+ images/heroes/hero-08.png.png  |  Bin [31m0[m -> [32m2251303[m bytes
+ images/heroes/hero-08.pp.png   |  Bin [31m0[m -> [32m2335955[m bytes
+ images/heroes/hero-08b.png     |  Bin [31m0[m -> [32m2386408[m bytes
+ images/heroes/hero-08b.png.png |  Bin [31m0[m -> [32m2190221[m bytes
+ images/heroes/hero-09 (2).png  |  Bin [31m0[m -> [32m2648928[m bytes
+ images/heroes/hero-09.png.png  |  Bin [31m0[m -> [32m2648928[m bytes
+ images/heroes/hero-10.png      |  Bin [31m0[m -> [32m2581123[m bytes
+ images/heroes/hero-10.png.png  |  Bin [31m0[m -> [32m2418491[m bytes
+ images/heroes/hero-10.pp.png   |  Bin [31m0[m -> [32m2300358[m bytes
+ images/heroes/hero-11.png      |  Bin [31m0[m -> [32m2486280[m bytes
+ images/heroes/hero-11.png.png  |  Bin [31m0[m -> [32m2373234[m bytes
+ images/heroes/hero-12.png      |  Bin [31m0[m -> [32m2071006[m bytes
+ images/heroes/hero-12.png.png  |  Bin [31m0[m -> [32m2342695[m bytes
+ images/heroes/hero-12e.png     |  Bin [31m0[m -> [32m1909598[m bytes
+ images/heroes/hero-13.png.png  |  Bin [31m0[m -> [32m1875314[m bytes
+ images/heroes/hero-132.png.png |  Bin [31m0[m -> [32m1911598[m bytes
+ images/heroes/hero-13e.png.png |  Bin [31m0[m -> [32m1885866[m bytes
+ images/heroes/hero-13w.png.png |  Bin [31m0[m -> [32m1896849[m bytes
+ images/heroes/hero-14.png.png  |  Bin [31m0[m -> [32m2821364[m bytes
+ images/heroes/hero-142.png.png |  Bin [31m0[m -> [32m2783728[m bytes
+ images/heroes/hero-15.png.png  |  Bin [31m0[m -> [32m2509098[m bytes
+ images/heroes/hero-16.png.png  |  Bin [31m0[m -> [32m2130189[m bytes
+ images/heroes/hero-162.png.png |  Bin [31m0[m -> [32m2173179[m bytes
+ images/heroes/hero-17.png      |  Bin [31m0[m -> [32m2695623[m bytes
+ images/heroes/hero-17.png.png  |  Bin [31m0[m -> [32m2522886[m bytes
+ images/heroes/hero-172.png.png |  Bin [31m0[m -> [32m2508819[m bytes
+ images/heroes/hero-17e.png.png |  Bin [31m0[m -> [32m2303065[m bytes
+ images/heroes/hero-17w.png.png |  Bin [31m0[m -> [32m2496943[m bytes
+ images/heroes/hero-18.png.png  |  Bin [31m0[m -> [32m2290821[m bytes
+ images/heroes/hero-19.png.png  |  Bin [31m0[m -> [32m2381614[m bytes
+ images/heroes/hero-19b.png     |  Bin [31m0[m -> [32m2273216[m bytes
+ images/heroes/hero-19e.png     |  Bin [31m0[m -> [32m2019099[m bytes
+ images/heroes/hero-19w.png     |  Bin [31m0[m -> [32m2273926[m bytes
+ images/heroes/hero-20.png.png  |  Bin [31m0[m -> [32m1959775[m bytes
+ images/heroes/hero-20b.png.png |  Bin [31m0[m -> [32m1943745[m bytes
+ images/heroes/hero-20e.png.png |  Bin [31m0[m -> [32m1879796[m bytes
+ images/heroes/hero-20w.png.png |  Bin [31m0[m -> [32m2112558[m bytes
+ images/heroes/hero-9.png       |  Bin [31m0[m -> [32m2275642[m bytes
+ images/heroes/hero.03.png      |  Bin [31m0[m -> [32m1951521[m bytes
+ images/heroes/hero.04.pp.png   |  Bin [31m0[m -> [32m2471637[m bytes
+ images/heroes/hero.05.png.png  |  Bin [31m0[m -> [32m2674052[m bytes
+ images/heroes/hero.14.pn.png   |  Bin [31m0[m -> [32m2636044[m bytes
+ images/heroes/hero.14.png      |  Bin [31m0[m -> [32m2636044[m bytes
+ index.html                     |  162 [32m++[m
+ js/script.js                   |   36 [32m+[m
+ powers.html                    |  556 [32m++++[m
+ stories.html                   |  709 [32m+++++[m
+ 95 files changed, 24986 insertions(+)
